@@ -12,16 +12,24 @@
 <div class="container">
   <div class="weather-app-wrapper">
   <div class="weather-app">
+    <div class="weather-overview">
    <h1>Liverpool</h1>
    <ul>
      <li>Thursday 20:30</li>
    <li>Partly cloudy</li>
     </ul>
+    </div>
    <div class="row">
      <div class="col-6">
-       <img src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png" alt="Partly cloudy">
-       9 °C | °F
+       <div class="clearfix">
+         <div class="current-temperature">
+       <img src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png" alt="Partly cloudy" class="float-left">
+       <div class="float-left">
+       <strong>9</strong><span class="units">°C | <a href="#">°F</a></span>
      </div>
+    </div>
+    </div>
+    </div>
      <div class="col-6">
        <ul>
          <li>
@@ -35,6 +43,7 @@
          </li>
        </ul>
      </div>
+   
     
      <div class="row">
        <div class="col-2">

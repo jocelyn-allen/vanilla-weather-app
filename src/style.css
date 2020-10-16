@@ -36,6 +36,27 @@ li {
   background: #f7f7f7;
 }
 
+.weather-overview {
+  margin-bottom: 15px;
+}
+
+.current-temperature img {
+  margin-right: 10px;
+  position: relative;
+  top: 3px;
+}
+
+.current-temperature strong {
+  font-size: 50px;
+  font-weight: 500px;
+}
+
+.current-temperature .units {
+  position: relative;
+  font-size: 14px;
+  top: -25px;
+}
+
 .wind-li {
   margin-bottom: 20px;
 }
