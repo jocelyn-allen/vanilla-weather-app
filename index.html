@@ -3,17 +3,18 @@
 <head>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link rel="stylesheet" href="src/style.css" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
-           <title>Weather App</title>
+        <link rel="stylesheet" href="src/style.css" />
+        <title>Weather App</title>
 </head>
 <body>
 <div class="container">
+  <div class="weather-app-wrapper">
   <div class="weather-app">
    <h1>Liverpool</h1>
    <ul>
-     <li>Last updated: Thursday 20:30</li>
+     <li>Thursday 20:30</li>
    <li>Partly cloudy</li>
     </ul>
    <div class="row">
@@ -29,59 +30,50 @@
          <li>
            Humidity: 81%
          </li>
-         <li>
+         <li class="wind-li">
            Wind: 7 mph
          </li>
        </ul>
      </div>
+    
      <div class="row">
        <div class="col-2">
-         <ul>
-           <li>22:00</li>
-           <li><img src="https://ssl.gstatic.com/onebox/weather/48/partly_cloudy.png" alt="Partly cloudy"></li>
-           <li>9° 9°</li>
-         </ul>
-       </div>
+         <h3>22:00</h3>
+          <img src="https://ssl.gstatic.com/onebox/weather/48/partly_cloudy.png" alt="Partly cloudy">
+           <div>9°</div>
+                </div>
         <div class="col-2">
-          <ul>
-            <li>01:00</li>
-            <li><img src="https://ssl.gstatic.com/onebox/weather/48/partly_cloudy.png" alt="Partly cloudy"></li>
-            <li>8° 7°</li>
-          </ul>
+            <h3>01:00</h3>
+            <img src="https://ssl.gstatic.com/onebox/weather/48/partly_cloudy.png" alt="Partly cloudy">
+            <div>8°</div>
         </div>
         <div class="col-2">
-          <ul>
-            <li>04:00</li>
-            <li><img src="https://ssl.gstatic.com/onebox/weather/48/partly_cloudy.png" alt="Partly cloudy"></li>
-            <li>8° 8°</li>
-          </ul>
+          <h3>04:00</h3>
+            <img src="https://ssl.gstatic.com/onebox/weather/48/partly_cloudy.png" alt="Partly cloudy">
+          <div>8°</div>
         </div>
         <div class="col-2">
-          <ul>
-            <li>07:00</li>
-            <li><img src="https://ssl.gstatic.com/onebox/weather/48/partly_cloudy.png" alt="Partly cloudy"></li>
-            <li>8° 8°</li>
-          </ul>
+          <h3>07:00</h3>
+            <img src="https://ssl.gstatic.com/onebox/weather/48/partly_cloudy.png" alt="Partly cloudy">
+            <div>8°</div>
         </div>
         <div class="col-2">
-          <ul>
-            <li>10:00</li>
-            <li><img src="https://ssl.gstatic.com/onebox/weather/48/partly_cloudy.png" alt="Partly cloudy"></li>
-            <li>10° 10°</li>
-          </ul>
+              <h3>10:00</h3>
+            <img src="https://ssl.gstatic.com/onebox/weather/48/partly_cloudy.png" alt="Partly cloudy">
+            <div>10°</div>
         </div>
         <div class="col-2">
-          <ul>
-            <li>13:00</li>
-            <li><img src="https://ssl.gstatic.com/onebox/weather/48/partly_cloudy.png" alt="Partly cloudy"></li>
-            <li>11° 11°</li>
-          </ul>
-        </div>
+          <h3>13:00</h3>
+            <img src="https://ssl.gstatic.com/onebox/weather/48/partly_cloudy.png" alt="Partly cloudy"></li>
+            <div>11°</div>
+          </div>
    </div>
   </div>
   </div>
   <small><a href="https://github.com/jocelyn-allen/vanilla-weather-app" target="_blank">Open-source code</a> by Jocelyn
     Allen</small>
+  </div>
+  
     <script src="src/app.js"></script>
 </body>
 </html>
