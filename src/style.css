@@ -65,3 +65,7 @@ li {
   text-align: center;
   width: 600px;
 }
+
+#description {
+  text-transform: capitalize;
+}
