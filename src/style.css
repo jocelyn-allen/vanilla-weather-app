@@ -69,3 +69,12 @@ li:first-letter {
   text-align: center;
   width: 600px;
 }
+
+.current-temperature .active {
+  color: #000000;
+  cursor: default;
+}
+
+.current-temperature .active:hover {
+  text-decoration: none;
+}
