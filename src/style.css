@@ -11,6 +11,7 @@ h1 {
 
 h3 {
   font-size: 16px;
+  margin-bottom: 0px;
 }
 
 ul {
@@ -29,15 +30,15 @@ li:first-letter {
 }
 
 .weather-app-wrapper {
-  max-width: 700px;
+  max-width: 650px;
   margin: 30px auto;
 }
 
 .weather-app {
   padding: 10px 30px;
-  border: 1px solid #000000;
+  border: 1px solid #b3b2b2;
   border-radius: 7px;
-  background: #f7f7f7;
+  background: #ffffff;
 }
 
 .weather-overview {
@@ -47,7 +48,7 @@ li:first-letter {
 .current-temperature img {
   margin-right: 10px;
   position: relative;
-  top: 3px;
+  top: -12px;
 }
 
 .current-temperature strong {
@@ -61,8 +62,13 @@ li:first-letter {
   top: -25px;
 }
 
+.humidity-and-wind {
+  margin-top: 14px;
+  margin-left: 15px;
+}
+
 .wind-li {
-  margin-bottom: 20px;
+  margin-bottom: 0px;
 }
 
 .col-2 {
@@ -70,6 +76,10 @@ li:first-letter {
   width: 600px;
 }
 
+.col-2 img {
+  position: relative;
+  right: 15px;
+}
 .current-temperature .active {
   color: #000000;
   cursor: default;
