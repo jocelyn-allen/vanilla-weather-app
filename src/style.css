@@ -5,7 +5,7 @@ body {
 h1 {
   color: #000000;
   font-size: 35px;
-  font-weight: 600px;
+  font-weight: 800px;
   margin-bottom: 10px;
 }
 
@@ -33,16 +33,24 @@ btn {
   transition: all 200ms ease-in-out;
 }
 
+a {
+  color: #f04314;
+}
+
+a:hover {
+  color: #f04314;
+}
+
 .weather-app-wrapper {
-  max-width: 650px;
+  max-width: 600px;
   margin: 30px auto;
 }
 
 .weather-app {
-  padding: 10px 30px;
-  border: 1px solid #b3b2b2;
+  padding: 10px 30px 20px 30px;
+  border: 2px solid #2c2c2c;
   border-radius: 7px;
-  background: #ffffff;
+  background: #97c3fd;
 }
 
 .weather-overview {
@@ -81,7 +89,7 @@ btn {
 
 .col-2 {
   text-align: center;
-  width: 600px;
+  width: 630px;
 }
 
 .col-2 img {
